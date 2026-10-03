@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Boyfriend Day ❤️</title>
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    color:white;
+    text-align:center;
+}
+
+.container{
+    max-width:700px;
+    padding:30px;
+}
+
+h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.message-box{
+    background:rgba(255,255,255,0.15);
+    padding:25px;
+    border-radius:20px;
+    line-height:1.8;
+    font-size:20px;
+    backdrop-filter: blur(5px);
+}
+
+button{
+    margin-top:25px;
+    padding:12px 30px;
+    border:none;
+    border-radius:30px;
+    background:white;
+    color:#ff4d79;
+    font-size:18px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#ffe6ee;
+}
+
+#surprise{
+    display:none;
+    margin-top:25px;
+    font-size:24px;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>❤️ Happy Boyfriend Day ❤️</h1>
+
+    <div class="message-box">
+        Enakku nee oru person mattum illa… enakku romba close-ah irukkura oru human. 🫶🏻
+        <br><br>
+
+        Un kooda sanda poduven, kalaaipen, pesuven, torture pannuven 😂 but at the end, unna vida close-ah irukka yaarum illa.
+        <br><br>
+
+        Nee en friend-um, brother-um, partner-um… overall enoda favourite human. 🤍
+        <br><br>
+
+        Just stay the same always. 🫂
+    </div>
+
+    <button onclick="showMessage()">
+        Click Here 💖
+    </button>
+
+    <div id="surprise">
+        ❤️ Thank You For Being My Favourite Human Forever ❤️
+    </div>
+
+</div>
+
+<script>
+function showMessage(){
+    document.getElementById("surprise").style.display = "block";
+}
+</script>
+
+</body>
+</html>
